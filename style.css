@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: times new roman, bookman old style;
+}
+
+
+.header {
+    background: linear-gradient(to right, #0d47a1, #1976d2);
+    text-align: center;
+    color: white;
+    height: 100%;
+}
+
+.header img {
+    height: 80px;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px black;
+}
+
+.tagline {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px black;
+}
+
+
+.sidebar {
+    background: #1565c0;
+    height: 100%;
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #64b5f6;
+}
+
+.sidebar a:hover {
+    background: #42a5f5;
+    padding-left: 25px;
+}
+
+.content {
+    padding: 20px;
+    background: #e3f2fd;
+    min-height: 100%;
+}
+
+.section {
+    font-size: 22px;
+    color: #0d47a1;
+    text-shadow: 2px 2px 4px gray;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.card {
+    background: white;
+    border: 2px solid #90caf9;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 3px 3px 8px gray;
+}
+
+.footer {
+    background: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    height: 100%;
+    text-shadow: 1px 1px 3px black;
+}
